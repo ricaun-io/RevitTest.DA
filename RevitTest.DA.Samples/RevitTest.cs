@@ -3,7 +3,7 @@ using Autodesk.Revit.ApplicationServices;
 using Autodesk.Revit.DB;
 using NUnit.Framework;
 
-[assembly: System.Reflection.AssemblyMetadata("NUnit.Application", "RICAUN_REVIT_TEST_APPLICATION_DA4R_ONLINE_TEST")]
+[assembly: System.Reflection.AssemblyMetadata("NUnit.Application", "RICAUN_REVITTEST_DA_APPLICATION")]
 [assembly: System.Reflection.AssemblyMetadata("NUnit.Verbosity", "3")]
 
 namespace RevitTest.DA

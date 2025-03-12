@@ -29,6 +29,8 @@ APS_CLIENT_ID=
 APS_CLIENT_SECRET=
 ```
 
+To create a new application in the Autodesk Platform Service, check the [Autodesk](https://aps.autodesk.com/) website. The application needs to have API Access to `Design Automation API` and `Data Management API`.
+
 For more information about the `ricaun.RevitTest.DA` check the [ricaun.RevitTest.DA](https://github.com/ricaun-io/ricaun.RevitTest.DA).
 
 ## dotnet test

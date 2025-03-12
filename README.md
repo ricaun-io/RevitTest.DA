@@ -6,6 +6,14 @@
 [![License MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Build](../../actions/workflows/Build.yml/badge.svg)](../../actions)
 
+[ricaun.RevitTest](https://github.com/ricaun-io/ricaun.RevitTest) is a multi-version NUnit testing framework for Revit API.  **Support Revit 2019 to 2025.**
+
+**This project contain samples and the basic info about the [ricaun.RevitTest](https://github.com/ricaun-io/ricaun.RevitTest) Framework using Design Automation.**
+
+## Configuration
+
+...
+
 ## dotnet test
 ```
 dotnet test .\RevitTest.DA\RevitTest.DA.csproj --configuration Release --logger trx --results-directory .\RevitTest.DA\bin\TestResults --verbosity Normal

@@ -13,7 +13,6 @@ namespace RevitTest.DA
             var assembly = AppDomain.CurrentDomain.GetAssemblies().FirstOrDefault(e=>e.GetName().Name == assemblyName);
             Assert.IsNotNull(assembly);
             Console.WriteLine(assembly);
-            Console.WriteLine(assembly.GetCustomAttribute<AssemblyVersionAttribute>().Version);
         }
     }
 }

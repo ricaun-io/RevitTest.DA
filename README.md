@@ -25,8 +25,8 @@ The `ricaun.RevitTest.DA` is a console application that can be used to run the t
 
 The environment variable `APS_CLIENT_ID` and `APS_CLIENT_SECRET` need to be set to run the tests in the Design Automation for Revit environment.
 ```xml
-APS_CLIENT_ID=
-APS_CLIENT_SECRET=
+APS_CLIENT_ID=<your client id>
+APS_CLIENT_SECRET=<your client secret>
 ```
 
 To create a new application in the Autodesk Platform Service, check the [Autodesk](https://aps.autodesk.com/) website. The application needs to have API Access to `Design Automation API` and `Data Management API`.

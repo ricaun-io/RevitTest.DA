@@ -16,7 +16,7 @@
 
 To force the [ricaun.RevitTest.TestAdapter](https://github.com/ricaun-io/ricaun.RevitTest) to use the Design Automation for Revit to run test the environment variable `RICAUN_REVITTEST_TESTADAPTER_NUNIT_APPLICATION` could be used to set the path to the `ricaun.RevitTest.DA.Console` application.
 ```xml
-RICAUN_REVITTEST_TESTADAPTER_NUNIT_APPLICATION=
+RICAUN_REVITTEST_TESTADAPTER_NUNIT_APPLICATION=https://github.com/ricaun-io/ricaun.RevitTest.DA/releases/latest/download/ricaun.RevitTest.DA.Console.zip
 ```
 
 There are other ways to change the `NUnit.Application` in the TestAdapter, check the [Wiki](https://github.com/ricaun-io/ricaun.RevitTest/wiki/Configurations) for more information.

@@ -26,6 +26,13 @@ namespace RevitTest.DA
         }
 
         [Test]
+        public void RevitTests_VersionBuild()
+        {
+            Assert.IsNotNull(application);
+            Console.WriteLine(application.VersionBuild);
+        }
+
+        [Test]
         public void RevitTests_ActiveAddInId()
         {
             Assert.IsNotNull(application);
